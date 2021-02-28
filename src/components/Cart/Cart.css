@@ -1,0 +1,23 @@
+.main-button{
+    background-color: goldenrod;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.heading{
+    text-align: center;
+}
+.price-details{
+    font-size:12px;
+    font-weight:400;
+}
+.order-total{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(192, 21, 21);
+}
+.cart-summary{
+    padding: 10px;
+}

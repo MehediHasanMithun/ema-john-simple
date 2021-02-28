@@ -1,7 +1,11 @@
 import React from 'react';
 import './Product.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+
 const Product = (props) => {
-    console.log(props.Name);
+    const element = <FontAwesomeIcon icon={faShoppingCart} />
+
     const {img,name,seller,price,stock,features,star} = props.product;
 
     return (
@@ -16,7 +20,7 @@ const Product = (props) => {
                         <p><small>by: {seller}</small></p>
                         <p>${price}</p>
                         <p><small>only {stock} left in stock - order soon</small></p>
-                        <button className="main-btn">add to cart</button>
+                        <button onClick={()=>props.handleAddButton(props.product)} className="main-btn">{element} add to cart</button>
                    </div>
                    <div className="feature">
                         <p>star:{star}</p>
