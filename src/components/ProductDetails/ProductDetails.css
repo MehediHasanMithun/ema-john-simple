@@ -1,6 +1,7 @@
 .product-details{
     display: flex;
     border-bottom: 1px solid lightgray;
+    margin-top: 20px;
 }
 .other-details{
     display: flex;
@@ -14,15 +15,4 @@
 }
 .without-img-details{
     margin-left: 10px;
-}
-.main-btn{
-    background-color: goldenrod;
-    width: 200px;
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    cursor: pointer;
-}
-.link-style{
-    text-decoration: none;
 }

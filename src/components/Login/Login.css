@@ -1,0 +1,11 @@
+.GoogleButton{
+    width: 200px;
+    height: 40px;
+    background-color:blueviolet;
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-top: 50px;
+}

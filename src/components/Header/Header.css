@@ -21,3 +21,13 @@ nav a{
 nav a:hover{
     background-color: gray;
 }
+.header span{
+    color: white;
+    margin-right: 25px;
+}
+.header button{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
